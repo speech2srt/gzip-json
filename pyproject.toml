@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=80.8.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gzip-json"
+version = "0.1.0"
+description = "A Python library for reading and writing gzip-compressed JSON files"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/speech2srt/gzip-json"
+Repository = "https://github.com/speech2srt/gzip-json"
+Issues = "https://github.com/speech2srt/gzip-json/issues"
+
+[tool.setuptools]
+package-dir = {"gzip_json" = "src"}
+packages = ["gzip_json"]
+
