@@ -13,7 +13,7 @@ import logging
 from .exceptions import GzipJsonError, GzipJsonReadError, GzipJsonWriteError
 from .gzip_json import GzipJson
 
-__version__ = "0.1.0"
+__version__ = "1.0.0"
 
 # Configure library root logger
 # Use NullHandler to ensure library remains silent when user hasn't configured logging
